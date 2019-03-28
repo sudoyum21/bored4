@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Bored3.Models
+namespace Bored4.Models
 {
     public partial class Post
     {

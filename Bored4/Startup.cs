@@ -9,8 +9,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.EntityFrameworkCore;
+using Bored4.Models;
 
-namespace Bored3
+namespace Bored4
 {
     public class Startup
     {
@@ -25,8 +27,7 @@ namespace Bored3
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-
-            var connection = @"Server=(localdb)\mssqllocaldb;Database=Blogging;Trusted_Connection=True;ConnectRetryCount=0";
+            var connection = @"Server=.\SQLEXPRESS;Database=Blogging;Integrated Security=True;";
             services.AddDbContext<BloggingContext>(options => options.UseSqlServer(connection));
         }
 

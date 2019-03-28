@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bored3", "Bored3\Bored3.csproj", "{A6214144-7520-4D1A-A5A1-FDF784E742F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bored4", "Bored4\Bored4.csproj", "{17DC4E3A-BE03-434D-B1C7-A25ADC1D0BFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A6214144-7520-4D1A-A5A1-FDF784E742F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A6214144-7520-4D1A-A5A1-FDF784E742F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A6214144-7520-4D1A-A5A1-FDF784E742F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A6214144-7520-4D1A-A5A1-FDF784E742F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17DC4E3A-BE03-434D-B1C7-A25ADC1D0BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17DC4E3A-BE03-434D-B1C7-A25ADC1D0BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17DC4E3A-BE03-434D-B1C7-A25ADC1D0BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17DC4E3A-BE03-434D-B1C7-A25ADC1D0BFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FB74A17E-0625-4019-BC1B-5349DAFA45DF}
+		SolutionGuid = {D11C2AAE-683F-4F9F-BF29-F407CA5C5F66}
 	EndGlobalSection
 EndGlobal

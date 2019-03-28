@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace Bored3.Models
+namespace Bored4.Models
 {
     public partial class BloggingContext : DbContext
     {
@@ -23,7 +23,7 @@ namespace Bored3.Models
 //            if (!optionsBuilder.IsConfigured)
 //            {
 //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-//                optionsBuilder.UseSqlServer("Data Source=DESKTOP-T3QIDDH\\SQLEXPRESS;Initial Catalog=Blogging;Integrated Security=True");
+//                optionsBuilder.UseSqlServer("Server=DESKTOP-T3QIDDH\\SQLEXPRESS;Initial Catalog=Blogging;Trusted_Connection=True;");
 //            }
 //        }
 

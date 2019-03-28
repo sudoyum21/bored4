@@ -4,7 +4,7 @@
     "windowsAuthentication": false, 
     "anonymousAuthentication": true, 
     "iisExpress": {
-      "applicationUrl": "http://localhost:39592",
+      "applicationUrl": "http://localhost:6484",
       "sslPort": 0
     }
   },
@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Bored3": {
+    "Bored4": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/values",
